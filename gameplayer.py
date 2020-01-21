@@ -79,14 +79,17 @@ class Gameplayer:
                     if not has_match(four):
                         continue
                     mask, val = has_match(four)
-                    x0 = np.sum(mask).argmin()
+                    x0 = mask.argmin()
+                    print(x0)
                     x1 = x0
                     if x0 == 1:
                         x1 -= 1
                     else:
                         x1 += 1
-                    x0 = w - x0 - 1
-                    x1 = w - x1 - 1
+                    print(x0, x1)
+                    print(w)
+                    x0 = w - (3-x0) - 1
+                    x1 = w - (3-x1) - 1
                     coords = np.array([(x0, y), (x1, y)])
                     if vertically:
                         coords = np.array([(y, 7 - x0), (y, 7 - x1)])
@@ -130,3 +133,4 @@ if __name__ == '__main__':
     pl = Gameplayer()
     pl.read_board()
     pl.play(eval(sys.argv[1]))
+    # print(pl.find_match())
