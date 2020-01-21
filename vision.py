@@ -2,7 +2,6 @@ import cv2
 from mss import mss
 from PIL import Image
 import numpy as np
-# import time
 from subprocess import Popen, PIPE, STDOUT
 
 
