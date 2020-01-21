@@ -1,6 +1,6 @@
 # GamePlayer_CVhw
 
-a bot for a following version of the diamond game:  
+a bot for the following version of the diamond game:  
 https://github.com/asweigart/making-games-with-python-and-pygame/tree/master/gemgem
 
 * works on linux
@@ -10,4 +10,4 @@ https://github.com/asweigart/making-games-with-python-and-pygame/tree/master/gem
  
  execute gameplayer.py with the number of steps you want the bot to make, like so:
 
-_python3 gameplayer.py 10_
+__python3 gameplayer.py 10__
