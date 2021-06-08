@@ -1,7 +1,7 @@
 mss==4.0.3
 numpy==1.17.3
 opencv-python==4.1.1.26
-Pillow==6.2.1
+Pillow==8.2.0
 pynput==1.4.4
 python-xlib==0.25
 six==1.12.0
